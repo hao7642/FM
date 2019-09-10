@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+html,body,#root{
+    height: 100%;
+}
+.header{
+     
+    width: 100%;
+    height: 86px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #888888;
+}
+.Tbar{
+   
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+  /* justify-content: space-around;
+    align-items: center;  */
+}
+.Tbar .Tbar-left{
+    width: 25%;
+    padding: 10px;
+}
+.Tbar .Tbar-left .glyphicone{
+    /* font-size: 12px; */
+    font-weight: bold;
+    color: aqua;
+    padding-right: 5px;
+}
+.Tbar .Tbar-right{
+    width: 75%;
+    padding: 10px;
+
+}
+.Tbar .Tbar-right input{
+    width: 90%;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+    background: rgba(0,0,0,.2);
+    border-radius:10px 
+}
+.Tbar .Tbar-right .glyphicons{
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    top:18px;
+  left: 150px;
+}
+.jump{
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.jump .list{
+    color: black;
+    padding-bottom: 5px;
+   font-size: 18px;
+}
+.jump a.active{
+    color: deepskyblue;
+    border-bottom: 1px solid deepskyblue;
+    text-decoration: none;
+}
+.home_list .name{
+    margin: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.home_list .name .img{
+    width: 50px;
+    height: 50px;
+}
+.home_list .name .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.home_list .name1 {
+    margin: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.space-carousel {
+    padding: 16px;
+    background: #DEF1E5;
+    overflow: hidden;
+  }
+  .icont_text{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .icont_text .icont{
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+  }
+  .icont_text .icont .glyphicon{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.icont_text .icont .glyphicon:nth-child(1){
+   background: chartreuse;
+}
+.icont_text .icont .glyphicon:nth-child(2){
+    background: deepskyblue;
+ }
+ .boxcont{
+     display: flex;
+     padding: 20px;
+     
+ }
+.boxcont div{
+    padding: 10px;
+}
+.classify{
+   
+}
+.nav_class{
+   height: 50px;
+   line-height: 50px;
+display: flex;
+justify-content: space-around;
+}
+.but{
+    width: 100%;
+    height: 35px;
+}
+.but button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: lightskyblue;
+}
